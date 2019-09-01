@@ -1,16 +1,10 @@
 # FreeCell
 
-**Do not share this repo or post it publicly. We will take violations
-very seriously.**
 
 ## Rules
 
-* You have **1 hour** for the assessment. Do not worry if you do not
-  complete the entire assessment; finish as much as you can.
 * Descriptions of each method to implement are written into the `lib/`
   files. For each `lib/` file, there is a corresponding `spec/` file.
-* Run the specs as you solve the assessment. Solve the assessment in
-  this order:
 
 ```
 bundle exec rspec spec/card_spec.rb
@@ -26,25 +20,6 @@ bundle exec rspec spec/game_spec.rb
   passing.
 * To run one specific spec, add `:line_number` at the end.  For example,
   `bundle exec rspec spec/pile_freecell_spec.rb:30`.
-* If a failing spec confuses you, look at the spec file to see if you
-  can discern what it is asking of you. There are sometimes comments
-  in the spec files to help you.
-* Please ask your TAs any questions. If you get stuck or don't know
-  why something is failing, ask. TAs will let you know whether they
-  can answer your question, so ask anything.
-    * Do not use the Internet or prior notes, please.
-* To submit:
-    * Rename the directory `first_name_last_name`.
-    * ZIP it (you can use OS X's built in zip functionality)
-    * Use `.zip`; no boutique formats please :-)
-    * Upload to progress tracker (http://progress.appacademy.io/).
-
-## Hint
-
-* **USE THE SPECIFIED API**. We have carefully guided you on the methods you'll
-  need in the files to let you easily write each class. Use these methods;
-  you'll see that we use `expect(...).to receive(...)` in some files to setup
-  objects for the test.
 
 ## Game Rules
 
@@ -64,5 +39,3 @@ bundle exec rspec spec/game_spec.rb
    the pile).
 5. The game is won when all of the cards have been moved to the Foundation
    piles.
-
-**Copyright App Academy, please do not post online**
